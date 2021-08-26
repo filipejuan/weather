@@ -1,0 +1,44 @@
+#home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 430px;
+  background-color: #0F0F0F;
+  color: #FFF;
+}
+
+#home-container h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+#home-container h2 {
+  font-weight: 200;
+  font-size: 22px;
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+
+#home-container .cities {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  width: 330px;
+}
+
+#home-container .cities .city-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+}
+
+#home-container .cities button {
+  color: #FFF;
+  font-size: 22px;
+  margin: 15px 0;
+}

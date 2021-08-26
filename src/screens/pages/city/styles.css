@@ -1,0 +1,128 @@
+#empty-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #0F0F0F;
+  color: #FFF
+}
+
+#city-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 700px;
+}
+
+#city-container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#city-container .content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#city-container .content h2 {
+  font-weight: 200;
+  font-size: 22px;
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+
+#city-container .content .temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
+
+#city-container .content .temperature h3 {
+  font-size: 90px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+#city-container .content .temperature .temp-min-max {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 82px;
+}
+
+#city-container .content .temperature .temp-min-max p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  align-self: flex-end;
+}
+
+#city-container .content .temperature .temp-min-max .temp-itens-container div {
+  display: flex;
+}
+
+#city-container .content .temperature .temp-min-max .temp-itens-container p {
+  margin: 0;
+  font-size: 12px;
+}
+
+#city-container .content .temperature-itens-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#city-container .content .temperature-itens-container.info {
+  margin-top: 40px;
+}
+
+#city-container .content .temperature-itens-container .itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+#city-container .content .temperature-itens-container .itens:first-child {
+  margin: 0;
+  margin-right: 10px;
+}
+
+#city-container .content .temperature-itens-container .itens:last-child {
+  margin: 0;
+  margin-left: 10px;
+}
+
+#city-container .content .temperature-itens-container .itens p {
+  margin: 5px 0;
+}
+
+#city-container .content .temperature-itens-container .separator {
+  width: 0.5px;
+  height: 25px;
+}
+
+@media screen and (min-width: 380px) {
+  #city-container .content .temperature-itens-container .itens {
+    margin: 0 15px;
+  }
+  
+  #city-container .content .temperature-itens-container .itens:first-child {
+    margin-right: 15px;
+  }
+  
+  #city-container .content .temperature-itens-container .itens:last-child {
+    margin-left: 15px;
+  }
+}
